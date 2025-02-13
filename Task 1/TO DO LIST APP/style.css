@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    list-style-type: none;
+}
+
+body{
+    background-color: black;
+}
+
+.box{
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+    width: 800px;
+    padding-bottom: 10px;
+    align-content: center;
+    margin: auto;
+}
+
+h1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container{ 
+    margin-top: 50px;
+}
+
+.set-input{
+    height: 30px;
+    width: 50vw;
+    text-align: left;
+    padding-left: 10px;
+    border-color: black;
+}
+
+.btn1{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bolder;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+li{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn3{
+    cursor: pointer;
+    margin-left: 20%;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn3:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.btn4{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn4:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+@media (max-width:375px){
+    .btn3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-left: 140px;
+    }
+
+    .box{
+        border-radius: 0px;
+        width: 400px;
+    }
+}
+
+@media (max-width:320px){
+    .btn3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-left: 140px;
+    }
+
+    .box{
+        border-radius: 0px;
+        width: 400px;
+    }
+}
+
+@media (min-width:2560px){ 
+    .box{
+        width: 1500px;
+        font-size: 50px;
+    }
+
+    .set-input{
+        height: 80px;
+        font-size: 50px;
+    }
+
+    .btn1{
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .btn2{
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .btn3{
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .btn4{
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 40px;
+    }
+}
